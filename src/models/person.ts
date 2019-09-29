@@ -1,21 +1,20 @@
 import { Schema, model } from "mongoose";
+import { organizationSchema } from "./organization";
 
-const personSchema: Schema = new Schema(
-  {
-    name: {
-      type: String,
-      required: true
-    },
-    assistant: String,
-    groups: String,
-    orderingId: Number,
-    // orgId: types.maybe(OrganizationInfo),
-    // phone: types.optional(types.array(Contact), []),
-    // email: types.optional(types.array(Contact), []),
-    pictureUrl: String
+const personSchema: Schema = new Schema({
+  name: {
+    type: String,
+    required: true
   },
-  { id: false, autoIndex: true }
-);
+  assistant: String,
+  groups: String,
+  orderingId: Number,
+  organization: organizationSchema,
+  // orgId: types.maybe(OrganizationInfo),
+  // phone: types.optional(types.array(Contact), []),
+  // email: types.optional(types.array(Contact), []),
+  pictureUrl: String
+});
 
 const virtualId = personSchema.virtual("id");
 virtualId.get(function(this: { _id: string }) {

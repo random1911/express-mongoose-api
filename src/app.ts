@@ -1,6 +1,7 @@
 import * as express from "express";
 import * as mongoose from "mongoose";
 import personsRoute from "./routes/persons";
+import organizationsRoute from "./routes/organizations";
 import * as bodyParser from "body-parser";
 require("dotenv").config();
 
@@ -14,6 +15,7 @@ app.get("/", (req, res) => {
 
 // routes
 app.use(personsRoute);
+app.use(organizationsRoute);
 
 const dbUrl = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@${process.env.DB_URL}/test?retryWrites=true&w=majority`;
 const dbOptions = {
