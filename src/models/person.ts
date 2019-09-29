@@ -2,7 +2,6 @@ import { Schema, model } from "mongoose";
 
 const personSchema: Schema = new Schema(
   {
-    id: String,
     name: {
       type: String,
       required: true
@@ -15,10 +14,16 @@ const personSchema: Schema = new Schema(
     // email: types.optional(types.array(Contact), []),
     pictureUrl: String
   },
-  { id: true }
+  { id: false, autoIndex: true }
 );
 
-export default model("person", personSchema);
+const virtualId = personSchema.virtual("id");
+virtualId.get(function(this: { _id: string }) {
+  return this._id;
+});
+personSchema.set("toJSON", { virtuals: true });
+
+export default model("person", personSchema, "persons");
 
 /*
     id: types.identifierNumber,
