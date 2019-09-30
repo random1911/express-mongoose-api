@@ -3,7 +3,9 @@ import PersonModel from "../models/person";
 
 const router = express.Router();
 const PATH = "/persons";
+const PATH_WITH_ID = `${PATH}/:id`;
 
+/** get all persons */
 router.get(PATH, async (req, res) => {
   try {
     const limitParam = parseInt(req.params.limit, 10);
@@ -18,6 +20,7 @@ router.get(PATH, async (req, res) => {
   }
 });
 
+/** add person */
 router.post(PATH, async (req, res) => {
   const personData = req.body;
   console.log({ ...personData });
@@ -36,6 +39,28 @@ router.post(PATH, async (req, res) => {
     res.status(200).json(saved);
   } catch (e) {
     res.status(400).json(e);
+  }
+});
+
+/** get single person */
+router.get(PATH_WITH_ID, async (req, res) => {
+  try {
+    const person = await PersonModel.findById(req.params.id).populate(
+      "organization"
+    );
+    res.status(200).json(person);
+  } catch (e) {
+    res.status(404).json(e);
+  }
+});
+
+/** delete single person */
+router.delete(PATH_WITH_ID, async (req, res) => {
+  try {
+    const result = await PersonModel.findByIdAndDelete(req.params.id);
+    res.status(200).json(result);
+  } catch (e) {
+    res.status(404).json(e);
   }
 });
 

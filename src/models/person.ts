@@ -1,8 +1,13 @@
 import { Schema, model } from "mongoose";
 // import { organizationSchema } from "./organization";
 
+const contactSchema: Schema = new Schema({
+  label: String,
+  value: String,
+  primary: Boolean
+});
+
 const personSchema: Schema = new Schema({
-  // id: new mongoose.Types.ObjectId(), // TODO
   name: {
     type: String,
     required: true
@@ -10,14 +15,12 @@ const personSchema: Schema = new Schema({
   assistant: String,
   groups: String,
   ordering_id: Number,
-  organization_id: Schema.Types.ObjectId,
   organization: {
     type: Schema.Types.ObjectId,
     ref: "organization"
   },
-  // orgId: types.maybe(OrganizationInfo),
-  // phone: types.optional(types.array(Contact), []),
-  // email: types.optional(types.array(Contact), []),
+  phones: [contactSchema],
+  emails: [contactSchema],
   picture_url: String
 });
 
@@ -26,11 +29,6 @@ virtualId.get(function(this: { _id: string }) {
   return this._id;
 });
 
-// const organization = personSchema.virtual("organization");
-// organization.get(async function(this: { organization_id?: string }) {
-//   if (!this.organization_id) return undefined;
-//   return OrganizationModel.findById(this.organization_id);
-// });
 personSchema.set("toJSON", { virtuals: true });
 
 export default model("person", personSchema, "persons");
@@ -46,3 +44,11 @@ export default model("person", personSchema, "persons");
     email: types.optional(types.array(Contact), []),
     pictureId: types.maybe(Picture),
 * */
+
+/*
+const Contact = types.model("ContactModel", {
+  label: types.maybe(types.string),
+  value: types.maybe(types.string),
+  primary: false
+});
+ */

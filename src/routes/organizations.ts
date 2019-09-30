@@ -13,7 +13,7 @@ router.get(PATH, async (req, res) => {
   }
 });
 
-// TODO: how to get type from schema?
+// TODO: how to get TS type from schema?
 const saveSingle = async (orgData: any, res: express.Response) => {
   try {
     const organization = new OrganizationModel(orgData);
