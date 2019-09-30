@@ -8,7 +8,9 @@ router.get(PATH, async (req, res) => {
   try {
     const limitParam = parseInt(req.params.limit, 10);
     const limit = limitParam || 1000;
-    const persons = await PersonModel.find().limit(limit);
+    const persons = await PersonModel.find()
+      .limit(limit)
+      .populate("organization");
     const count = await PersonModel.count({});
     res.status(200).json({ persons, count });
   } catch (e) {
@@ -22,7 +24,15 @@ router.post(PATH, async (req, res) => {
   try {
     const person = new PersonModel({ ...personData });
     console.log(person);
-    const saved = await person.save();
+    const saved = await person.save(function(error) {
+      if (!error) {
+        PersonModel.find({})
+          .populate("organization")
+          .exec(function(error, posts) {
+            console.log(JSON.stringify(posts, null, "t"));
+          });
+      }
+    });
     res.status(200).json(saved);
   } catch (e) {
     res.status(400).json(e);
