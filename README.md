@@ -14,7 +14,8 @@ Work in progress!
 
 Main thing this app about
 
--[x] `GET` `/persons` `?limit=NUMBER` - persons list
+-[ ] `GET` `/persons` `?limit=NUMBER` - persons list
+TODO: start param
 
 -[x] `GET` `/persons/:id` - get single person info
 
@@ -25,6 +26,8 @@ Main thing this app about
 -[x] `DELETE` `/persons/:id` - delete person
 
 -[ ] `GET` `/persons/find` `?name=STRING` - find
+
+-[ ] some kind of request to save order
 
 ### Organizations
 

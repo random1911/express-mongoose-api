@@ -3,10 +3,12 @@ import * as mongoose from "mongoose";
 import personsRoute from "./routes/persons";
 import organizationsRoute from "./routes/organizations";
 import * as bodyParser from "body-parser";
+import * as cors from "cors";
 require("dotenv").config();
 
 const app = express();
 
+app.use(cors());
 app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
