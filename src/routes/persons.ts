@@ -54,6 +54,11 @@ router.get(PATH_WITH_ID, async (req, res) => {
   }
 });
 
+/** edit person */
+router.put(PATH_WITH_ID, (req, res) => {
+  res.status(501).json({ error: "NOT IMPLEMENTED" });
+});
+
 /** delete single person */
 router.delete(PATH_WITH_ID, async (req, res) => {
   try {
@@ -62,6 +67,11 @@ router.delete(PATH_WITH_ID, async (req, res) => {
   } catch (e) {
     res.status(404).json(e);
   }
+});
+
+/** find person by name */
+router.get(`${PATH}/find`, (req, res) => {
+  res.status(501).json({ error: "NOT IMPLEMENTED" });
 });
 
 export default router;
