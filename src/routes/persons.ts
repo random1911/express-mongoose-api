@@ -4,6 +4,10 @@ import PersonModel from "../models/person";
 const router = express.Router();
 const PATH = "/persons";
 const PATH_WITH_ID = `${PATH}/:id`;
+const ORGANIZATION = "organization_info";
+
+const findPersonById = async (id: string) =>
+  await PersonModel.findById(id).populate(ORGANIZATION);
 
 /** get all persons */
 router.get(PATH, async (req, res) => {
@@ -12,7 +16,7 @@ router.get(PATH, async (req, res) => {
     const limit = limitParam || 1000;
     const persons = await PersonModel.find()
       .limit(limit)
-      .populate("organization");
+      .populate(ORGANIZATION);
     const count = await PersonModel.count({});
     res.status(200).json({ persons, count });
   } catch (e) {
@@ -23,20 +27,11 @@ router.get(PATH, async (req, res) => {
 /** add person */
 router.post(PATH, async (req, res) => {
   const personData = req.body;
-  console.log({ ...personData });
   try {
     const person = new PersonModel({ ...personData });
-    console.log(person);
-    const saved = await person.save(function(error) {
-      if (!error) {
-        PersonModel.find({})
-          .populate("organization")
-          .exec(function(error, posts) {
-            console.log(JSON.stringify(posts, null, "t"));
-          });
-      }
-    });
-    res.status(200).json(saved);
+    const saved = await person.save();
+    const createdPerson = await findPersonById(saved._id);
+    res.status(200).json(createdPerson);
   } catch (e) {
     res.status(400).json(e);
   }
@@ -45,9 +40,7 @@ router.post(PATH, async (req, res) => {
 /** get single person */
 router.get(PATH_WITH_ID, async (req, res) => {
   try {
-    const person = await PersonModel.findById(req.params.id).populate(
-      "organization"
-    );
+    const person = await findPersonById(req.params.id);
     res.status(200).json(person);
   } catch (e) {
     res.status(404).json(e);
