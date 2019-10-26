@@ -48,8 +48,19 @@ router.get(PATH_WITH_ID, async (req, res) => {
 });
 
 /** edit person */
-router.put(PATH_WITH_ID, (req, res) => {
-  res.status(501).json({ error: "NOT IMPLEMENTED" });
+router.put(PATH_WITH_ID, async (req, res) => {
+  const { id } = req.params;
+  try {
+    const model = await PersonModel.updateOne({ _id: id }, { ...req.body });
+    if (model.nModified < 1) {
+      res.status(400).json({});
+      return;
+    }
+    const updated = await findPersonById(id);
+    res.status(200).json(updated);
+  } catch (e) {
+    res.status(400).json(e);
+  }
 });
 
 /** delete single person */
