@@ -11,7 +11,6 @@ const findPersonById = async (id: string) =>
 
 /** get all persons */
 router.get(PATH, async (req, res) => {
-  console.log(req.query);
   try {
     const limit = parseInt(req.query.limit, 10) || 1000;
     const skip = parseInt(req.query.from, 10) || 0;
