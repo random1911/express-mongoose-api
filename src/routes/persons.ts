@@ -11,12 +11,14 @@ const findPersonById = async (id: string) =>
 
 /** get all persons */
 router.get(PATH, async (req, res) => {
+  console.log(req.query);
   try {
-    const limitParam = parseInt(req.params.limit, 10);
-    const limit = limitParam || 1000;
-    const persons = await PersonModel.find()
-      .limit(limit)
-      .populate(ORGANIZATION);
+    const limit = parseInt(req.query.limit, 10) || 1000;
+    const skip = parseInt(req.query.from, 10) || 0;
+    const persons = await PersonModel.find({}, null, {
+      skip,
+      limit
+    }).populate(ORGANIZATION);
     const count = await PersonModel.count({});
     res.status(200).json({ persons, count });
   } catch (e) {
