@@ -2,8 +2,7 @@ import { Schema, model } from "mongoose";
 
 const contactSchema: Schema = new Schema({
   label: String,
-  value: String,
-  primary: Boolean // TODO: don't need this, just get arrayName[0]
+  value: String
 });
 
 const personSchema: Schema = new Schema({
@@ -14,7 +13,7 @@ const personSchema: Schema = new Schema({
   assistant: String,
   groups: String,
   ordering_id: Number,
-  organization: {
+  organization_info: {
     type: Schema.Types.ObjectId,
     ref: "organization"
   },

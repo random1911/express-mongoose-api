@@ -4,15 +4,20 @@ import PersonModel from "../models/person";
 const router = express.Router();
 const PATH = "/persons";
 const PATH_WITH_ID = `${PATH}/:id`;
+const ORGANIZATION = "organization_info";
+
+const findPersonById = async (id: string) =>
+  await PersonModel.findById(id).populate(ORGANIZATION);
 
 /** get all persons */
 router.get(PATH, async (req, res) => {
   try {
-    const limitParam = parseInt(req.params.limit, 10);
-    const limit = limitParam || 1000;
-    const persons = await PersonModel.find()
-      .limit(limit)
-      .populate("organization");
+    const limit = parseInt(req.query.limit, 10) || 1000;
+    const skip = parseInt(req.query.from, 10) || 0;
+    const persons = await PersonModel.find({}, null, {
+      skip,
+      limit
+    }).populate(ORGANIZATION);
     const count = await PersonModel.count({});
     res.status(200).json({ persons, count });
   } catch (e) {
@@ -23,20 +28,11 @@ router.get(PATH, async (req, res) => {
 /** add person */
 router.post(PATH, async (req, res) => {
   const personData = req.body;
-  console.log({ ...personData });
   try {
     const person = new PersonModel({ ...personData });
-    console.log(person);
-    const saved = await person.save(function(error) {
-      if (!error) {
-        PersonModel.find({})
-          .populate("organization")
-          .exec(function(error, posts) {
-            console.log(JSON.stringify(posts, null, "t"));
-          });
-      }
-    });
-    res.status(200).json(saved);
+    const saved = await person.save();
+    const createdPerson = await findPersonById(saved._id);
+    res.status(200).json(createdPerson);
   } catch (e) {
     res.status(400).json(e);
   }
@@ -45,9 +41,7 @@ router.post(PATH, async (req, res) => {
 /** get single person */
 router.get(PATH_WITH_ID, async (req, res) => {
   try {
-    const person = await PersonModel.findById(req.params.id).populate(
-      "organization"
-    );
+    const person = await findPersonById(req.params.id);
     res.status(200).json(person);
   } catch (e) {
     res.status(404).json(e);
@@ -55,8 +49,19 @@ router.get(PATH_WITH_ID, async (req, res) => {
 });
 
 /** edit person */
-router.put(PATH_WITH_ID, (req, res) => {
-  res.status(501).json({ error: "NOT IMPLEMENTED" });
+router.put(PATH_WITH_ID, async (req, res) => {
+  const { id } = req.params;
+  try {
+    const model = await PersonModel.updateOne({ _id: id }, { ...req.body });
+    if (model.nModified < 1) {
+      res.status(400).json({});
+      return;
+    }
+    const updated = await findPersonById(id);
+    res.status(200).json(updated);
+  } catch (e) {
+    res.status(400).json(e);
+  }
 });
 
 /** delete single person */
