@@ -14,14 +14,13 @@ Work in progress!
 
 Main thing this app about
 
-- [ ] `GET` `/persons` `?limit=NUMBER` - persons list
-TODO: start param
+- [x] `GET` `/persons` `?limit=NUMBER&from=NUMBER` - persons list
 
 - [x] `GET` `/persons/:id` - get single person info
 
 - [x] `POST` `/persons` `{}` - add person
 
-- [ ] `PUT` `/persons/:id` - edit person
+- [x] `PUT` `/persons/:id` - edit person
 
 - [x] `DELETE` `/persons/:id` - delete person
 
@@ -35,6 +34,8 @@ In original app it was huge thing, same (or even more big) as persons, but here 
 
 - [ ] `GET` `/organizations` - list of organizations
 
+- [ ] `GET` `/organizations/init` - reset list of organizations
+
 ### Reset to initial state
 
-- [ ] `GET` `/reset` - will restore original data mocks
+- [ ] `GET` `/reset` - will restore original persons mocks
