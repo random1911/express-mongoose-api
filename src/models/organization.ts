@@ -1,5 +1,10 @@
 import { Schema, model } from "mongoose";
 
+export interface IOrganization {
+  name: string;
+  address?: string;
+}
+
 export const organizationSchema: Schema = new Schema({
   name: {
     type: String,

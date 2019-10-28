@@ -1,42 +1,24 @@
 import * as express from "express";
-import * as mongoose from "mongoose";
-import personsRoute from "./routes/persons";
-import organizationsRoute from "./routes/organizations";
 import * as bodyParser from "body-parser";
 import * as cors from "cors";
-require("dotenv").config();
+import dbSetup from "./data-setup/dbSetup";
+import personsRoute from "./routes/persons";
+import organizationsRoute from "./routes/organizations";
 
 const app = express();
+
+dbSetup();
 
 app.use(cors());
 app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
-  res.send("Hello World");
+  res.status(403);
 });
 
 // routes
 app.use(personsRoute);
 app.use(organizationsRoute);
-
-const dbUrl = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@${process.env.DB_URL}/test?retryWrites=true&w=majority`;
-const dbOptions = {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-  dbName: "personListApp"
-};
-console.log(dbUrl);
-mongoose
-  .connect(dbUrl, dbOptions, () => {
-    console.log("DB connected");
-  })
-  .catch(error => console.error(error));
-
-const db = mongoose.connection;
-db.on("error", console.error.bind(console, "connection error:"));
-db.once("open", function() {
-  // we're connected!
-});
 
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
