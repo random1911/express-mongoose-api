@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node --inspect=5858 -r ts-node/register ./src/app.ts",
     "cleanPersons": "node --inspect=5859 -r ts-node/register ./src/data-setup/cleanPersons.ts",
+    "cleanOrganizations": "node --inspect=5859 -r ts-node/register ./src/data-setup/cleanOrganizations.ts",
+    "cleanEverything": "node --inspect=5859 -r ts-node/register ./src/data-setup/cleanEverything.ts",
     "uploadOrganizations": "node --inspect=5859 -r ts-node/register ./src/data-setup/uploadOrganizations.ts",
     "start:watch": "nodemon",
     "build": "tsc"
