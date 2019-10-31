@@ -1,7 +1,7 @@
 import person, { IPerson } from "../models/person";
 import organization from "../models/organization";
 import dbSetup from "./dbSetup";
-const personsList = require("../mocks/persons-list.json");
+const personsList = require("../mocks/persons-data.json");
 
 const getOrganizations = async () => {
   return organization.find({});
@@ -39,8 +39,8 @@ const main = async () => {
     process.exit(1);
   }
   console.log(organizations);
-  // const preparedList = getPreparedPersonModel(organizations)
-  // await uploadPersons(preparedList);
+  const preparedList = getPreparedPersonModel(organizations as any);
+  await uploadPersons(preparedList);
   process.exit(0);
 };
 

@@ -9,6 +9,7 @@
     "cleanOrganizations": "node --inspect=5859 -r ts-node/register ./src/data-setup/cleanOrganizations.ts",
     "cleanEverything": "node --inspect=5859 -r ts-node/register ./src/data-setup/cleanEverything.ts",
     "uploadOrganizations": "node --inspect=5859 -r ts-node/register ./src/data-setup/uploadOrganizations.ts",
+    "uploadPersons": "node --inspect=5859 -r ts-node/register ./src/data-setup/uploadPersons.ts",
     "start:watch": "nodemon",
     "build": "tsc"
   },

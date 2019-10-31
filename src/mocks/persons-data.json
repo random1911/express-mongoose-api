@@ -1,802 +1,804 @@
 [
   {
     "name": "Edgar Collier",
-    "email": "edgar.collier@example.com",
-    "phone": "(415) 366-3362",
     "assistant": "Stacy Conely",
     "groups": "Leads from VILCON",
-    "org_name": "Computer Medic"
+    "org_name": "Computer Medic",
+    "emails": [{ "value": "edgar.collier@example.com", "label": "work" }],
+    "phones": [{ "value": "(415) 366-3362", "label": "work" }]
   },
   {
     "name": "Colten Gentry",
-    "email": "colten.gentry@example.com",
-    "phone": "(306) 864-2575",
     "assistant": "Tony Cano",
     "groups": "Mike’s contacts",
-    "org_name": "Dahlal International"
+    "org_name": "Dahlal International",
+    "emails": [{ "value": "colten.gentry@example.com", "label": "work" }],
+    "phones": [{ "value": "(306) 864-2575", "label": "work" }]
   },
   {
     "name": "Averi Mcclain",
-    "email": "averi.mcclain@example.com",
-    "phone": "(183) 460-9664",
     "assistant": "Kourtney Zuchowski",
     "groups": "Really valuable contacts",
-    "org_name": "Authorized Photo"
+    "org_name": "Authorized Photo",
+    "emails": [{ "value": "averi.mcclain@example.com", "label": "work" }],
+    "phones": [{ "value": "(183) 460-9664", "label": "work" }]
   },
   {
     "name": "Yadiel Blackburn",
-    "email": "yadiel.blackburn@example.com",
-    "phone": "(690) 929-0410",
     "assistant": "Chanell Bivins",
     "groups": "Really valuable contacts",
-    "org_name": "Carpet One"
+    "org_name": "Carpet One",
+    "emails": [{ "value": "yadiel.blackburn@example.com", "label": "work" }],
+    "phones": [{ "value": "(690) 929-0410", "label": "work" }]
   },
   {
     "name": "Mila Benson",
-    "email": "mila.benson@example.com",
-    "phone": "(721) 933-0127",
     "assistant": "Ulysses Muth",
     "groups": "EU clients",
-    "org_name": "Rite Aid Pharmacy"
+    "org_name": "Rite Aid Pharmacy",
+    "emails": [{ "value": "mila.benson@example.com", "label": "work" }],
+    "phones": [{ "value": "(721) 933-0127", "label": "work" }]
   },
   {
     "name": "Brenton Moran",
-    "email": "brenton.moran@example.com",
-    "phone": "(678) 333-7918",
     "assistant": "",
     "groups": "Leads from Conference",
-    "org_name": "City Of Greenville"
+    "org_name": "City Of Greenville",
+    "emails": [{ "value": "brenton.moran@example.com", "label": "work" }],
+    "phones": [{ "value": "(678) 333-7918", "label": "work" }]
   },
   {
     "name": "Jadiel Mckinney",
-    "email": "jadiel.mckinney@example.com",
-    "phone": "(415) 812-9559",
     "assistant": "Gala Stockton",
     "groups": "Leads from Conference",
-    "org_name": "Highland Ford"
+    "org_name": "Highland Ford",
+    "emails": [{ "value": "jadiel.mckinney@example.com", "label": "work" }],
+    "phones": [{ "value": "(415) 812-9559", "label": "work" }]
   },
   {
     "name": "Makayla Carter",
-    "email": "makayla.carter@example.com",
-    "phone": "(512) 317-2387",
     "assistant": "Le Partlow",
     "groups": "EU clients",
-    "org_name": "Aonics Electronics"
+    "org_name": "Aonics Electronics",
+    "emails": [{ "value": "makayla.carter@example.com", "label": "work" }],
+    "phones": [{ "value": "(512) 317-2387", "label": "work" }]
   },
   {
     "name": "Abagail Sanford",
-    "email": "abagail.sanford@example.com",
-    "phone": "(203) 360-2484",
     "assistant": "Kiana Brack",
     "groups": "Really valuable contacts",
-    "org_name": "Overhead Door"
+    "org_name": "Overhead Door",
+    "emails": [{ "value": "abagail.sanford@example.com", "label": "work" }],
+    "phones": [{ "value": "(203) 360-2484", "label": "work" }]
   },
   {
     "name": "Rigoberto Mccormick",
-    "email": "rigoberto.mccormick@example.com",
-    "phone": "(367) 800-2953",
     "assistant": "Latricia Fergus",
     "groups": "Leads from Conference",
-    "org_name": "Gardener's World"
+    "org_name": "Gardener's World",
+    "emails": [{ "value": "rigoberto.mccormick@example.com", "label": "work" }],
+    "phones": [{ "value": "(367) 800-2953", "label": "work" }]
   },
   {
     "name": "Ruth Hale",
-    "email": "ruth.hale@example.com",
-    "phone": "(530) 299-3883",
     "assistant": "",
     "groups": "EU clients",
-    "org_name": "Dairy Trade"
+    "org_name": "Dairy Trade",
+    "emails": [{ "value": "ruth.hale@example.com", "label": "work" }],
+    "phones": [{ "value": "(530) 299-3883", "label": "work" }]
   },
   {
     "name": "Kathleen Jones",
-    "email": "kathleen.jones@example.com",
-    "phone": "(735) 576-6597",
     "assistant": "Franklyn Hopp",
     "groups": "Really valuable contacts",
-    "org_name": "Hands Of Time Art Gallery"
+    "org_name": "Hands Of Time Art Gallery",
+    "emails": [{ "value": "kathleen.jones@example.com", "label": "work" }],
+    "phones": [{ "value": "(735) 576-6597", "label": "work" }]
   },
   {
     "name": "Monica Gaines",
-    "email": "monica.gaines@example.com",
-    "phone": "(721) 804-5738",
     "assistant": "",
     "groups": "Mike’s contacts",
-    "org_name": "Nutritional Biomedicine"
+    "org_name": "Nutritional Biomedicine",
+    "emails": [{ "value": "monica.gaines@example.com", "label": "work" }],
+    "phones": [{ "value": "(721) 804-5738", "label": "work" }]
   },
   {
     "name": "Carlos Dougherty",
-    "email": "carlos.dougherty@example.com",
-    "phone": "(548) 217-6640",
     "assistant": "Clementina Larimore",
     "groups": "EU clients",
-    "org_name": "Marineone Corporation"
+    "org_name": "Marineone Corporation",
+    "emails": [{ "value": "carlos.dougherty@example.com", "label": "work" }],
+    "phones": [{ "value": "(548) 217-6640", "label": "work" }]
   },
   {
     "name": "Ashlynn Knapp",
-    "email": "ashlynn.knapp@example.com",
-    "phone": "(902) 992-6098",
     "assistant": "Hui Mandez",
     "groups": "Really valuable contacts",
-    "org_name": "Ergonomic Electronics"
+    "org_name": "Ergonomic Electronics",
+    "emails": [{ "value": "ashlynn.knapp@example.com", "label": "work" }],
+    "phones": [{ "value": "(902) 992-6098", "label": "work" }]
   },
   {
     "name": "Jaelynn Ortiz",
-    "email": "jaelynn.ortiz@example.com",
-    "phone": "(641) 198-1341",
     "assistant": "Verla Belgarde",
     "groups": "Leads from Conference",
-    "org_name": "Chevrolet-Buick"
+    "org_name": "Chevrolet-Buick",
+    "emails": [{ "value": "jaelynn.ortiz@example.com", "label": "work" }],
+    "phones": [{ "value": "(641) 198-1341", "label": "work" }]
   },
   {
     "name": "Everett Finley",
-    "email": "everett.finley@example.com",
-    "phone": "(815) 752-3266",
     "assistant": "Aletha Chesley",
     "groups": "EU clients",
-    "org_name": "Ciralight"
+    "org_name": "Ciralight",
+    "emails": [{ "value": "everett.finley@example.com", "label": "work" }],
+    "phones": [{ "value": "(815) 752-3266", "label": "work" }]
   },
   {
     "name": "Jamie Nielsen",
-    "email": "jamie.nielsen@example.com",
-    "phone": "(299) 441-4595",
     "assistant": "",
     "groups": "Really valuable contacts",
-    "org_name": "ORBIS America"
+    "org_name": "ORBIS America",
+    "emails": [{ "value": "jamie.nielsen@example.com", "label": "work" }],
+    "phones": [{ "value": "(299) 441-4595", "label": "work" }]
   },
   {
     "name": "Regina Newton",
-    "email": "regina.newton@example.com",
-    "phone": "(686) 546-7819",
     "assistant": "Hank Westrich",
     "groups": "Mike’s contacts",
-    "org_name": "Integrated Documents"
+    "org_name": "Integrated Documents",
+    "emails": [{ "value": "regina.newton@example.com", "label": "work" }],
+    "phones": [{ "value": "(686) 546-7819", "label": "work" }]
   },
   {
     "name": "Hayden Graves",
-    "email": "hayden.graves@example.com",
-    "phone": "(716) 148-9455",
     "assistant": "Lucas Donovan",
     "groups": "EU clients",
-    "org_name": "Willamette Nursery"
+    "org_name": "Willamette Nursery",
+    "emails": [{ "value": "hayden.graves@example.com", "label": "work" }],
+    "phones": [{ "value": "(716) 148-9455", "label": "work" }]
   },
   {
     "name": "Juan Beltran",
-    "email": "juan.beltran@example.com",
-    "phone": "(875) 913-5583",
     "assistant": "Karole Clutts",
     "groups": "Really valuable contacts",
-    "org_name": "Major Cadillacinc"
+    "org_name": "Major Cadillacinc",
+    "emails": [{ "value": "juan.beltran@example.com", "label": "work" }],
+    "phones": [{ "value": "(875) 913-5583", "label": "work" }]
   },
   {
     "name": "Shaun Cortez",
-    "email": "shaun.cortez@example.com",
-    "phone": "(606) 778-3301",
     "assistant": "Eli Paxson",
     "groups": "Leads from Conference",
-    "org_name": "Kinney"
+    "org_name": "Kinney",
+    "emails": [{ "value": "shaun.cortez@example.com", "label": "work" }],
+    "phones": [{ "value": "(606) 778-3301", "label": "work" }]
   },
   {
     "name": "Alayna Rice",
-    "email": "alayna.rice@example.com",
-    "phone": "(861) 182-4736",
     "assistant": "Petra Cherry",
     "groups": "EU clients",
-    "org_name": "Laughing Sun Hand Carved Doors"
+    "org_name": "Laughing Sun Hand Carved Doors",
+    "emails": [{ "value": "alayna.rice@example.com", "label": "work" }],
+    "phones": [{ "value": "(861) 182-4736", "label": "work" }]
   },
   {
     "name": "Johnathon George",
-    "email": "johnathon.george@example.com",
-    "phone": "(535) 637-0291",
     "assistant": "",
     "groups": "Mike’s contacts",
-    "org_name": "Hanna's Color Ctr"
+    "org_name": "Hanna's Color Ctr",
+    "emails": [{ "value": "johnathon.george@example.com", "label": "work" }],
+    "phones": [{ "value": "(535) 637-0291", "label": "work" }]
   },
   {
     "name": "Alice Rivers",
-    "email": "alice.rivers@example.com",
-    "phone": "(816) 370-0327",
     "assistant": "Allegra Gascon",
     "groups": "Really valuable contacts",
-    "org_name": "Turbo Marine"
+    "org_name": "Turbo Marine",
+    "emails": [{ "value": "alice.rivers@example.com", "label": "work" }],
+    "phones": [{ "value": "(816) 370-0327", "label": "work" }]
   },
   {
     "name": "Aurora Krueger",
-    "email": "aurora.krueger@example.com",
-    "phone": "(440) 955-8124",
     "assistant": "Deandre Rain",
     "groups": "Mike’s contacts",
-    "org_name": "Tomato Store"
+    "org_name": "Tomato Store",
+    "emails": [{ "value": "aurora.krueger@example.com", "label": "work" }],
+    "phones": [{ "value": "(440) 955-8124", "label": "work" }]
   },
   {
     "name": "Eileen Hinton",
-    "email": "eileen.hinton@example.com",
-    "phone": "(899) 128-0714",
     "assistant": "Nicholas Neihoff",
     "groups": "Really valuable contacts",
-    "org_name": "People Soft Inc"
+    "org_name": "People Soft Inc",
+    "emails": [{ "value": "eileen.hinton@example.com", "label": "work" }],
+    "phones": [{ "value": "(899) 128-0714", "label": "work" }]
   },
   {
     "name": "Justice Fernandez",
-    "email": "justice.fernandez@example.com",
-    "phone": "(621) 411-9350",
     "assistant": "Basilia Failla",
     "groups": "Leads from Conference",
-    "org_name": "Tom Keller Associates"
+    "org_name": "Tom Keller Associates",
+    "emails": [{ "value": "justice.fernandez@example.com", "label": "work" }],
+    "phones": [{ "value": "(621) 411-9350", "label": "work" }]
   },
   {
     "name": "Amani Vaughan",
-    "email": "amani.vaughan@example.com",
-    "phone": "(919) 367-3436",
     "assistant": "Martha Millard",
     "groups": "EU clients",
-    "org_name": "Joseph's Jewelers"
+    "org_name": "Joseph's Jewelers",
+    "emails": [{ "value": "amani.vaughan@example.com", "label": "work" }],
+    "phones": [{ "value": "(919) 367-3436", "label": "work" }]
   },
   {
     "name": "Gabrielle Green",
-    "email": "gabrielle.green@example.com",
-    "phone": "(387) 843-6772",
     "assistant": "Aleen Thurman",
     "groups": "EU clients",
-    "org_name": "Kersting's Cycle Ctr Inc"
+    "org_name": "Kersting's Cycle Ctr Inc",
+    "emails": [{ "value": "gabrielle.green@example.com", "label": "work" }],
+    "phones": [{ "value": "(387) 843-6772", "label": "work" }]
   },
   {
     "name": "Matteo Campbell",
-    "email": "matteo.campbell@example.com",
-    "phone": "(542) 859-5092",
     "assistant": "Tamar Dumlao",
     "groups": "Mike’s contacts",
-    "org_name": "Hearing Industries Association"
+    "org_name": "Hearing Industries Association",
+    "emails": [{ "value": "matteo.campbell@example.com", "label": "work" }],
+    "phones": [{ "value": "(542) 859-5092", "label": "work" }]
   },
   {
     "name": "Rylee Levy",
-    "email": "rylee.levy@example.com",
-    "phone": "(921) 775-9062",
     "assistant": "Ciera Malik",
     "groups": "EU clients",
-    "org_name": "Kathleen L. Teter"
+    "org_name": "Kathleen L. Teter",
+    "emails": [{ "value": "rylee.levy@example.com", "label": "work" }],
+    "phones": [{ "value": "(921) 775-9062", "label": "work" }]
   },
   {
     "name": "Asa Dominguez",
-    "email": "asa.dominguez@example.com",
-    "phone": "(290) 768-1800",
     "assistant": "Tamela Westbury",
     "groups": "Really valuable contacts",
-    "org_name": "Cabinet Connection"
+    "org_name": "Cabinet Connection",
+    "emails": [{ "value": "asa.dominguez@example.com", "label": "work" }],
+    "phones": [{ "value": "(290) 768-1800", "label": "work" }]
   },
   {
     "name": "Eduardo Woodward",
-    "email": "eduardo.woodward@example.com",
-    "phone": "(383) 995-2715",
     "assistant": "Tijuana Ress",
     "groups": "Mike’s contacts",
-    "org_name": "Ray Perron & Co"
+    "org_name": "Ray Perron & Co",
+    "emails": [{ "value": "eduardo.woodward@example.com", "label": "work" }],
+    "phones": [{ "value": "(383) 995-2715", "label": "work" }]
   },
   {
     "name": "Claudia Wilkerson",
-    "email": "claudia.wilkerson@example.com",
-    "phone": "(840) 386-3911",
     "assistant": "Mittie Stillings",
     "groups": "Leads from Conference",
-    "org_name": "RC Electronic"
+    "org_name": "RC Electronic",
+    "emails": [{ "value": "claudia.wilkerson@example.com", "label": "work" }],
+    "phones": [{ "value": "(840) 386-3911", "label": "work" }]
   },
   {
     "name": "Jocelynn Arellano",
-    "email": "jocelynn.arellano@example.com",
-    "phone": "(779) 678-7900",
     "assistant": "Tori Hoge",
     "groups": "EU clients",
-    "org_name": "Mc Gregors Fountains"
+    "org_name": "Mc Gregors Fountains",
+    "emails": [{ "value": "jocelynn.arellano@example.com", "label": "work" }],
+    "phones": [{ "value": "(779) 678-7900", "label": "work" }]
   },
   {
     "name": "Gauge Holmes",
-    "email": "gauge.holmes@example.com",
-    "phone": "(378) 881-1927",
     "assistant": "Coleman Stellhorn",
     "groups": "EU clients",
-    "org_name": "Atie Mart"
+    "org_name": "Atie Mart",
+    "emails": [{ "value": "gauge.holmes@example.com", "label": "work" }],
+    "phones": [{ "value": "(378) 881-1927", "label": "work" }]
   },
   {
     "name": "Steven Potter",
-    "email": "steven.potter@example.com",
-    "phone": "(524) 860-9224",
     "assistant": "Emilee Bozell",
     "groups": "Really valuable contacts",
-    "org_name": "Compex Integrated Systems"
+    "org_name": "Compex Integrated Systems",
+    "emails": [{ "value": "steven.potter@example.com", "label": "work" }],
+    "phones": [{ "value": "(524) 860-9224", "label": "work" }]
   },
   {
     "name": "Lucia Boyd",
-    "email": "lucia.boyd@example.com",
-    "phone": "(132) 226-4387",
     "assistant": "Cassandra Cassel",
     "groups": "EU clients",
-    "org_name": "Marvin's Shop"
+    "org_name": "Marvin's Shop",
+    "emails": [{ "value": "lucia.boyd@example.com", "label": "work" }],
+    "phones": [{ "value": "(132) 226-4387", "label": "work" }]
   },
   {
     "name": "Brisa Horne",
-    "email": "brisa.horne@example.com",
-    "phone": "(277) 667-5815",
     "assistant": "Luanna Wine",
     "groups": "EU clients",
-    "org_name": "Murphy Motor CO"
+    "org_name": "Murphy Motor CO",
+    "emails": [{ "value": "brisa.horne@example.com", "label": "work" }],
+    "phones": [{ "value": "(277) 667-5815", "label": "work" }]
   },
   {
     "name": "Peyton Pollard",
-    "email": "peyton.pollard@example.com",
-    "phone": "(915) 448-2742",
     "assistant": "Maryam Lu",
     "groups": "Leads from Conference",
-    "org_name": "Ice Designs"
+    "org_name": "Ice Designs",
+    "emails": [{ "value": "peyton.pollard@example.com", "label": "work" }],
+    "phones": [{ "value": "(915) 448-2742", "label": "work" }]
   },
   {
     "name": "Tania Forbes",
-    "email": "tania.forbes@example.com",
-    "phone": "(567) 693-1223",
     "assistant": "Elijah Klimas",
     "groups": "EU clients",
-    "org_name": "Goldstone Tech Inc"
+    "org_name": "Goldstone Tech Inc",
+    "emails": [{ "value": "tania.forbes@example.com", "label": "work" }],
+    "phones": [{ "value": "(567) 693-1223", "label": "work" }]
   },
   {
     "name": "Jordan Cole",
-    "email": "jordan.cole@example.com",
-    "phone": "(635) 373-4483",
     "assistant": "Charlie Halladay",
     "groups": "EU clients",
-    "org_name": "Kismet Salon And Day Spa"
+    "org_name": "Kismet Salon And Day Spa",
+    "emails": [{ "value": "jordan.cole@example.com", "label": "work" }],
+    "phones": [{ "value": "(635) 373-4483", "label": "work" }]
   },
   {
     "name": "Saniya Hopkins",
-    "email": "saniya.hopkins@example.com",
-    "phone": "(709) 115-7035",
     "assistant": "",
     "groups": "Really valuable contacts",
-    "org_name": "Time Systems Intl CO"
+    "org_name": "Time Systems Intl CO",
+    "emails": [{ "value": "saniya.hopkins@example.com", "label": "work" }],
+    "phones": [{ "value": "(709) 115-7035", "label": "work" }]
   },
   {
     "name": "Jaylee Patel",
-    "email": "jaylee.patel@example.com",
-    "phone": "(245) 802-2126",
     "assistant": "Corrina Ledger",
     "groups": "EU clients",
-    "org_name": "Ultimate Auto Group Inc"
+    "org_name": "Ultimate Auto Group Inc",
+    "emails": [{ "value": "jaylee.patel@example.com", "label": "work" }],
+    "phones": [{ "value": "(245) 802-2126", "label": "work" }]
   },
   {
     "name": "Gaven Mcfarland",
-    "email": "gaven.mcfarland@example.com",
-    "phone": "(965) 465-3411",
     "assistant": "Cinda Garrels",
     "groups": "EU clients",
-    "org_name": "Techpro Inc"
+    "org_name": "Techpro Inc",
+    "emails": [{ "value": "gaven.mcfarland@example.com", "label": "work" }],
+    "phones": [{ "value": "(965) 465-3411", "label": "work" }]
   },
   {
     "name": "Anabel Huffman",
-    "email": "anabel.huffman@example.com",
-    "phone": "(697) 429-7993",
     "assistant": "Hung Urbina",
     "groups": "Really valuable contacts",
-    "org_name": "Ast Sports Science Inc"
+    "org_name": "Ast Sports Science Inc",
+    "emails": [{ "value": "anabel.huffman@example.com", "label": "work" }],
+    "phones": [{ "value": "(697) 429-7993", "label": "work" }]
   },
   {
     "name": "Selena Rowe",
-    "email": "selena.rowe@example.com",
-    "phone": "(130) 865-3684",
     "assistant": "Theo Febus",
     "groups": "EU clients",
-    "org_name": "Verona Wine Cellar"
+    "org_name": "Verona Wine Cellar",
+    "emails": [{ "value": "selena.rowe@example.com", "label": "work" }],
+    "phones": [{ "value": "(130) 865-3684", "label": "work" }]
   },
   {
     "name": "Lana Morales",
-    "email": "lana.morales@example.com",
-    "phone": "(664) 392-1213",
     "assistant": "Emmitt Llanas",
     "groups": "Leads from Conference",
-    "org_name": "Cider Hill Gardens & Gallery"
+    "org_name": "Cider Hill Gardens & Gallery",
+    "emails": [{ "value": "lana.morales@example.com", "label": "work" }],
+    "phones": [{ "value": "(664) 392-1213", "label": "work" }]
   },
   {
     "name": "Garrett Moon",
-    "email": "garrett.moon@example.com",
-    "phone": "(159) 553-5893",
     "assistant": "Jefferson Armenta",
     "groups": "EU clients",
-    "org_name": "Landmark International Trucks"
+    "org_name": "Landmark International Trucks",
+    "emails": [{ "value": "garrett.moon@example.com", "label": "work" }],
+    "phones": [{ "value": "(159) 553-5893", "label": "work" }]
   },
   {
     "name": "Krista Solis",
-    "email": "krista.solis@example.com",
-    "phone": "(726) 639-4495",
     "assistant": "Vera Maron",
     "groups": "EU clients",
-    "org_name": "Inventive Computer Solutions"
+    "org_name": "Inventive Computer Solutions",
+    "emails": [{ "value": "krista.solis@example.com", "label": "work" }],
+    "phones": [{ "value": "(726) 639-4495", "label": "work" }]
   },
   {
     "name": "Paxton Trujillo",
-    "email": "paxton.trujillo@example.com",
-    "phone": "(885) 900-1255",
     "assistant": "Lindy Wen",
     "groups": "Really valuable contacts",
-    "org_name": "R G Machine Inc"
+    "org_name": "R G Machine Inc",
+    "emails": [{ "value": "paxton.trujillo@example.com", "label": "work" }],
+    "phones": [{ "value": "(885) 900-1255", "label": "work" }]
   },
   {
     "name": "Aditya Johnson",
-    "email": "aditya.johnson@example.com",
-    "phone": "(240) 704-8272",
     "assistant": "Vannessa Judd",
     "groups": "EU clients",
-    "org_name": "Winsert Inc"
+    "org_name": "Winsert Inc",
+    "emails": [{ "value": "aditya.johnson@example.com", "label": "work" }],
+    "phones": [{ "value": "(240) 704-8272", "label": "work" }]
   },
   {
     "name": "Nehemiah Riggs",
-    "email": "nehemiah.riggs@example.com",
-    "phone": "(423) 616-7361",
     "assistant": "",
     "groups": "Mike’s contacts",
-    "org_name": "Casio America Inc"
+    "org_name": "Casio America Inc",
+    "emails": [{ "value": "nehemiah.riggs@example.com", "label": "work" }],
+    "phones": [{ "value": "(423) 616-7361", "label": "work" }]
   },
   {
     "name": "Rihanna Mosley",
-    "email": "rihanna.mosley@example.com",
-    "phone": "(419) 775-1907",
     "assistant": "Lisa Mechling",
     "groups": "EU clients",
-    "org_name": "Segami Corp"
+    "org_name": "Segami Corp",
+    "emails": [{ "value": "rihanna.mosley@example.com", "label": "work" }],
+    "phones": [{ "value": "(419) 775-1907", "label": "work" }]
   },
   {
     "name": "Aubree Hammond",
-    "email": "aubree.hammond@example.com",
-    "phone": "(558) 967-9724",
     "assistant": "Elisha Bazan",
     "groups": "EU clients",
-    "org_name": "Free Latte"
+    "org_name": "Free Latte",
+    "emails": [{ "value": "aubree.hammond@example.com", "label": "work" }],
+    "phones": [{ "value": "(558) 967-9724", "label": "work" }]
   },
   {
     "name": "Ali Ryan",
-    "email": "ali.ryan@example.com",
-    "phone": "(580) 914-7202",
     "assistant": "Bradley Groves",
     "groups": "EU clients",
-    "org_name": "Todd Muderlak"
+    "org_name": "Todd Muderlak",
+    "emails": [{ "value": "ali.ryan@example.com", "label": "work" }],
+    "phones": [{ "value": "(580) 914-7202", "label": "work" }]
   },
   {
     "name": "Karson Kirk",
-    "email": "karson.kirk@example.com",
-    "phone": "(269) 488-8533",
     "assistant": "Deb Rehberg",
     "groups": "Leads from Conference",
-    "org_name": "Kingsbury Corporation"
+    "org_name": "Kingsbury Corporation",
+    "emails": [{ "value": "karson.kirk@example.com", "label": "work" }],
+    "phones": [{ "value": "(269) 488-8533", "label": "work" }]
   },
   {
     "name": "Vanessa Day",
-    "email": "vanessa.day@example.com",
-    "phone": "(970) 971-7864",
     "assistant": "Bennett Caston",
     "groups": "EU clients",
-    "org_name": "Park -N- Sell"
+    "org_name": "Park -N- Sell",
+    "emails": [{ "value": "vanessa.day@example.com", "label": "work" }],
+    "phones": [{ "value": "(970) 971-7864", "label": "work" }]
   },
   {
     "name": "Aaron Harper",
-    "email": "aaron.harper@example.com",
-    "phone": "(889) 241-7463",
     "assistant": "Golda Mutch",
     "groups": "Really valuable contacts",
-    "org_name": "Jatt Communications Inc"
+    "org_name": "Jatt Communications Inc",
+    "emails": [{ "value": "aaron.harper@example.com", "label": "work" }],
+    "phones": [{ "value": "(889) 241-7463", "label": "work" }]
   },
   {
     "name": "Ella Kline",
-    "email": "ella.kline@example.com",
-    "phone": "(807) 370-0379",
     "assistant": "Lorraine Reidy",
     "groups": "EU clients",
-    "org_name": "Pyro Service CO"
+    "org_name": "Pyro Service CO",
+    "emails": [{ "value": "ella.kline@example.com", "label": "work" }],
+    "phones": [{ "value": "(807) 370-0379", "label": "work" }]
   },
   {
     "name": "Henry Monroe",
-    "email": "henry.monroe@example.com",
-    "phone": "(103) 278-8439",
     "assistant": "Ambrose Goodpasture",
     "groups": "EU clients",
-    "org_name": "Lake Lbj Municipal Utility District"
+    "org_name": "Lake Lbj Municipal Utility District",
+    "emails": [{ "value": "henry.monroe@example.com", "label": "work" }],
+    "phones": [{ "value": "(103) 278-8439", "label": "work" }]
   },
   {
     "name": "Dayami Jackson",
-    "email": "dayami.jackson@example.com",
-    "phone": "(164) 375-6271",
     "assistant": "Hollis Alderman",
     "groups": "Mike’s contacts",
-    "org_name": "Jewelers Mutual Insurance Company"
+    "org_name": "Jewelers Mutual Insurance Company",
+    "emails": [{ "value": "dayami.jackson@example.com", "label": "work" }],
+    "phones": [{ "value": "(164) 375-6271", "label": "work" }]
   },
   {
     "name": "Haley Bowers",
-    "email": "haley.bowers@example.com",
-    "phone": "(119) 946-0147",
     "assistant": "Paris Erikson",
     "groups": "EU clients",
-    "org_name": "Willard Brothers"
+    "org_name": "Willard Brothers",
+    "emails": [{ "value": "haley.bowers@example.com", "label": "work" }],
+    "phones": [{ "value": "(119) 946-0147", "label": "work" }]
   },
   {
     "name": "Desirae Wilkins",
-    "email": "desirae.wilkins@example.com",
-    "phone": "(199) 131-6154",
     "assistant": "",
     "groups": "EU clients",
-    "org_name": "Arthur Field"
+    "org_name": "Arthur Field",
+    "emails": [{ "value": "desirae.wilkins@example.com", "label": "work" }],
+    "phones": [{ "value": "(199) 131-6154", "label": "work" }]
   },
   {
     "name": "Nasir Bass",
-    "email": "nasir.bass@example.com",
-    "phone": "(826) 603-2905",
     "assistant": "Merry Surratt",
     "groups": "Leads from Conference",
-    "org_name": "Respironics Inc"
+    "org_name": "Respironics Inc",
+    "emails": [{ "value": "nasir.bass@example.com", "label": "work" }],
+    "phones": [{ "value": "(826) 603-2905", "label": "work" }]
   },
   {
     "name": "Hillary Rogers",
-    "email": "hillary.rogers@example.com",
-    "phone": "(798) 912-4348",
     "assistant": "Antonio Melgarejo",
     "groups": "EU clients",
-    "org_name": "Adam Jenkins"
+    "org_name": "Adam Jenkins",
+    "emails": [{ "value": "hillary.rogers@example.com", "label": "work" }],
+    "phones": [{ "value": "(798) 912-4348", "label": "work" }]
   },
   {
     "name": "Zayden Estes",
-    "email": "zayden.estes@example.com",
-    "phone": "(410) 940-9656",
     "assistant": "Maxine Gains",
     "groups": "Really valuable contacts",
-    "org_name": "Jen Adams"
+    "org_name": "Jen Adams",
+    "emails": [{ "value": "zayden.estes@example.com", "label": "work" }],
+    "phones": [{ "value": "(410) 940-9656", "label": "work" }]
   },
   {
     "name": "Monserrat Fry",
-    "email": "monserrat.fry@example.com",
-    "phone": "(767) 902-3138",
     "assistant": "Lyda Sutterfield",
     "groups": "EU clients",
-    "org_name": "Lake Co"
+    "org_name": "Lake Co",
+    "emails": [{ "value": "monserrat.fry@example.com", "label": "work" }],
+    "phones": [{ "value": "(767) 902-3138", "label": "work" }]
   },
   {
     "name": "Armando Pennington",
-    "email": "armando.pennington@example.com",
-    "phone": "(328) 691-1392",
     "assistant": "Micah Ellzey",
     "groups": "EU clients",
-    "org_name": "M C L Laboratory Inc"
+    "org_name": "M C L Laboratory Inc",
+    "emails": [{ "value": "armando.pennington@example.com", "label": "work" }],
+    "phones": [{ "value": "(328) 691-1392", "label": "work" }]
   },
   {
     "name": "Damian Curtis",
-    "email": "damian.curtis@example.com",
-    "phone": "(263) 104-9519",
     "assistant": "Lashell Hymel",
     "groups": "Mike’s contacts",
-    "org_name": "McFerrin Engineering & Manufacturing Company"
+    "org_name": "McFerrin Engineering & Manufacturing Company",
+    "emails": [{ "value": "damian.curtis@example.com", "label": "work" }],
+    "phones": [{ "value": "(263) 104-9519", "label": "work" }]
   },
   {
     "name": "Barbara Flynn",
-    "email": "barbara.flynn@example.com",
-    "phone": "(597) 121-3349",
     "assistant": "Tatyana Kinsey",
     "groups": "Leads from Conference",
-    "org_name": "C.c. Bell Electronics"
+    "org_name": "C.c. Bell Electronics",
+    "emails": [{ "value": "barbara.flynn@example.com", "label": "work" }],
+    "phones": [{ "value": "(597) 121-3349", "label": "work" }]
   },
   {
     "name": "Gilberto Davidson",
-    "email": "gilberto.davidson@example.com",
-    "phone": "(847) 343-9314",
     "assistant": "Tameka Rutledge",
     "groups": "EU clients",
-    "org_name": "Sensa Dyne Instrument Division"
+    "org_name": "Sensa Dyne Instrument Division",
+    "emails": [{ "value": "gilberto.davidson@example.com", "label": "work" }],
+    "phones": [{ "value": "(847) 343-9314", "label": "work" }]
   },
   {
     "name": "Fernando Franco",
-    "email": "fernando.franco@example.com",
-    "phone": "(723) 302-3473",
     "assistant": "Katelyn Cobler",
     "groups": "EU clients",
-    "org_name": "Nebraska Watersports"
+    "org_name": "Nebraska Watersports",
+    "emails": [{ "value": "fernando.franco@example.com", "label": "work" }],
+    "phones": [{ "value": "(723) 302-3473", "label": "work" }]
   },
   {
     "name": "Antonio Barber",
-    "email": "antonio.barber@example.com",
-    "phone": "(311) 867-2072",
     "assistant": "Mayme Beehler",
     "groups": "Really valuable contacts",
-    "org_name": "Infinity Management"
+    "org_name": "Infinity Management",
+    "emails": [{ "value": "antonio.barber@example.com", "label": "work" }],
+    "phones": [{ "value": "(311) 867-2072", "label": "work" }]
   },
   {
     "name": "Hadassah Chase",
-    "email": "hadassah.chase@example.com",
-    "phone": "(937) 231-0184",
     "assistant": "",
     "groups": "EU clients",
-    "org_name": "Secca Computer Services"
+    "org_name": "Secca Computer Services",
+    "emails": [{ "value": "hadassah.chase@example.com", "label": "work" }],
+    "phones": [{ "value": "(937) 231-0184", "label": "work" }]
   },
   {
     "name": "Ethan Rubio",
-    "email": "ethan.rubio@example.com",
-    "phone": "(169) 873-9453",
     "assistant": "Valentina Canas",
     "groups": "Leads from Conference",
-    "org_name": "Nextel Communications"
+    "org_name": "Nextel Communications",
+    "emails": [{ "value": "ethan.rubio@example.com", "label": "work" }],
+    "phones": [{ "value": "(169) 873-9453", "label": "work" }]
   },
   {
     "name": "Santino French",
-    "email": "santino.french@example.com",
-    "phone": "(222) 610-3077",
     "assistant": "Margarita Blackstone",
     "groups": "Mike’s contacts",
-    "org_name": "Coilcraft Inc"
+    "org_name": "Coilcraft Inc",
+    "emails": [{ "value": "santino.french@example.com", "label": "work" }],
+    "phones": [{ "value": "(222) 610-3077", "label": "work" }]
   },
   {
     "name": "Liliana Miranda",
-    "email": "liliana.miranda@example.com",
-    "phone": "(718) 733-3863",
     "assistant": "Louvenia Haney",
     "groups": "EU clients",
-    "org_name": "Jake Jaramillo"
+    "org_name": "Jake Jaramillo",
+    "emails": [{ "value": "liliana.miranda@example.com", "label": "work" }],
+    "phones": [{ "value": "(718) 733-3863", "label": "work" }]
   },
   {
     "name": "Julianne Wright",
-    "email": "julianne.wright@example.com",
-    "phone": "(116) 191-4602",
     "assistant": "Wade Benny",
     "groups": "Really valuable contacts",
-    "org_name": "Handmade By Modern Methods Inc"
+    "org_name": "Handmade By Modern Methods Inc",
+    "emails": [{ "value": "julianne.wright@example.com", "label": "work" }],
+    "phones": [{ "value": "(116) 191-4602", "label": "work" }]
   },
   {
     "name": "Messiah Ayala",
-    "email": "messiah.ayala@example.com",
-    "phone": "(536) 134-7293",
     "assistant": "Robbie Corr",
     "groups": "EU clients",
-    "org_name": "Matthew Lonam"
+    "org_name": "Matthew Lonam",
+    "emails": [{ "value": "messiah.ayala@example.com", "label": "work" }],
+    "phones": [{ "value": "(536) 134-7293", "label": "work" }]
   },
   {
     "name": "Caden Wu",
-    "email": "caden.wu@example.com",
-    "phone": "(513) 627-7874",
     "assistant": "Jacquline Tourville",
     "groups": "EU clients",
-    "org_name": "Task USA Inc"
+    "org_name": "Task USA Inc",
+    "emails": [{ "value": "caden.wu@example.com", "label": "work" }],
+    "phones": [{ "value": "(513) 627-7874", "label": "work" }]
   },
   {
     "name": "Killian Charles",
-    "email": "killian.charles00000000089@example.com",
-    "phone": "(309) 114-9409",
     "assistant": "Melissa Vanderwal",
     "groups": "Leads from Conference",
-    "org_name": "Elite Enterprises"
+    "org_name": "Elite Enterprises",
+    "emails": [
+      { "value": "killian.charles00000000089@example.com", "label": "work" }
+    ],
+    "phones": [{ "value": "(309) 114-9409", "label": "work" }]
   },
   {
     "name": "Kasey Frost",
-    "email": "kasey.frost@example.com",
-    "phone": "(943) 353-7143",
     "assistant": "Pauline Rank",
     "groups": "Really valuable contacts",
-    "org_name": "Advanced Waterjet Cutting"
+    "org_name": "Advanced Waterjet Cutting",
+    "emails": [{ "value": "kasey.frost@example.com", "label": "work" }],
+    "phones": [{ "value": "(943) 353-7143", "label": "work" }]
   },
   {
     "name": "Izayah Blevins",
-    "email": "izayah.blevins@example.com",
-    "phone": "(950) 800-3541",
     "assistant": "Mellissa Lockard",
     "groups": "EU clients",
-    "org_name": "Stephen Tortorici"
+    "org_name": "Stephen Tortorici",
+    "emails": [{ "value": "izayah.blevins@example.com", "label": "work" }],
+    "phones": [{ "value": "(950) 800-3541", "label": "work" }]
   },
   {
     "name": "Hana Harrison",
-    "email": "hana.harrison@example.com",
-    "phone": "(297) 212-1706",
     "assistant": "Rico Daubert",
     "groups": "EU clients",
-    "org_name": "George Markham & Sons Signs"
+    "org_name": "George Markham & Sons Signs",
+    "emails": [{ "value": "hana.harrison@example.com", "label": "work" }],
+    "phones": [{ "value": "(297) 212-1706", "label": "work" }]
   },
   {
     "name": "Keith Soto",
-    "email": "keith.soto@example.com",
-    "phone": "(340) 532-2318",
     "assistant": "Jovan Loredo",
     "groups": "Mike’s contacts",
-    "org_name": "Smith Inc Kenneth"
+    "org_name": "Smith Inc Kenneth",
+    "emails": [{ "value": "keith.soto@example.com", "label": "work" }],
+    "phones": [{ "value": "(340) 532-2318", "label": "work" }]
   },
   {
     "name": "Shayna Gillespie",
-    "email": "shayna.gillespie@example.com",
-    "phone": "(557) 747-3949",
     "assistant": "Soraya Malbon",
     "groups": "Belongs to a group of those people who really like to talk a lot",
-    "org_name": "East Side Tool And Die Co"
+    "org_name": "East Side Tool And Die Co",
+    "emails": [{ "value": "shayna.gillespie@example.com", "label": "work" }],
+    "phones": [{ "value": "(557) 747-3949", "label": "work" }]
   },
   {
     "name": "Aimee Bernard",
-    "email": "aimee.bernard@example.com",
-    "phone": "(799) 653-0436",
     "assistant": "Agnes Derossett",
     "groups": "EU clients",
-    "org_name": "Cash Wagon Inc"
+    "org_name": "Cash Wagon Inc",
+    "emails": [{ "value": "aimee.bernard@example.com", "label": "work" }],
+    "phones": [{ "value": "(799) 653-0436", "label": "work" }]
   },
   {
     "name": "Madilyn Bautista",
-    "email": "madilyn.bautista@example.com",
-    "phone": "(877) 499-4839",
     "assistant": "Tanya Toenjes",
     "groups": "Mike’s contacts",
-    "org_name": "American Printing Equip & Supl"
+    "org_name": "American Printing Equip & Supl",
+    "emails": [{ "value": "madilyn.bautista@example.com", "label": "work" }],
+    "phones": [{ "value": "(877) 499-4839", "label": "work" }]
   },
   {
     "name": "Caitlin Horn",
-    "email": "caitlin.horn@example.com",
-    "phone": "(329) 280-5094",
     "assistant": "Bobbie Greeson",
     "groups": "EU clients",
-    "org_name": "Weiler Corp"
+    "org_name": "Weiler Corp",
+    "emails": [{ "value": "caitlin.horn@example.com", "label": "work" }],
+    "phones": [{ "value": "(329) 280-5094", "label": "work" }]
   },
   {
     "name": "Travis Rangel",
-    "email": "travis.rangel@example.com",
-    "phone": "(309) 585-9522",
     "assistant": "Karlene Vanish",
     "groups": "Leads from Conference",
-    "org_name": "Loughberry Manufacturing Corp"
+    "org_name": "Loughberry Manufacturing Corp",
+    "emails": [{ "value": "travis.rangel@example.com", "label": "work" }],
+    "phones": [{ "value": "(309) 585-9522", "label": "work" }]
   },
   {
     "name": "Aisha Peters",
-    "email": "aisha.peters@example.com",
-    "phone": "(480) 479-1091",
     "assistant": "Marisela Moskowitz",
     "groups": "EU clients",
-    "org_name": "The Jug Man"
+    "org_name": "The Jug Man",
+    "emails": [{ "value": "aisha.peters@example.com", "label": "work" }],
+    "phones": [{ "value": "(480) 479-1091", "label": "work" }]
   },
   {
     "name": "Trevor Dillon",
-    "email": "trevor.dillon@example.com",
-    "phone": "(283) 611-0673",
     "assistant": "",
     "groups": "Mike’s contacts",
-    "org_name": "Die-Tech Industries"
+    "org_name": "Die-Tech Industries",
+    "emails": [{ "value": "trevor.dillon@example.com", "label": "work" }],
+    "phones": [{ "value": "(283) 611-0673", "label": "work" }]
   },
   {
     "name": "Jaquan Foster",
-    "email": "jaquan.foster@example.com",
-    "phone": "(791) 367-6193",
     "assistant": "Chanel Petroff",
     "groups": "Really valuable contacts",
-    "org_name": "ÖöTöö"
+    "org_name": "ÖöTöö",
+    "emails": [{ "value": "jaquan.foster@example.com", "label": "work" }],
+    "phones": [{ "value": "(791) 367-6193", "label": "work" }]
   },
   {
     "name": "Efrain Galvan",
-    "email": "efrain.galvan@example.com",
-    "phone": "(682) 798-7216",
     "assistant": "Armando Carleton",
     "groups": "Leads from Conference",
-    "org_name": "Xamin Systems"
+    "org_name": "Xamin Systems",
+    "emails": [{ "value": "efrain.galvan@example.com", "label": "work" }],
+    "phones": [{ "value": "(682) 798-7216", "label": "work" }]
   },
   {
     "name": "Angelica Olsen",
-    "email": "angelica.olsen@example.com",
-    "phone": "(107) 552-7434",
     "assistant": "Tori Meneely",
     "groups": "Really valuable contacts",
-    "org_name": "Telecom Support Specialist"
+    "org_name": "Telecom Support Specialist",
+    "emails": [{ "value": "angelica.olsen@example.com", "label": "work" }],
+    "phones": [{ "value": "(107) 552-7434", "label": "work" }]
   },
   {
     "name": "Teagan Lamb",
-    "email": "teagan.lamb@example.com",
-    "phone": "(331) 589-7963",
     "assistant": "",
     "groups": "Mike’s contacts",
-    "org_name": "Future Finishes Inc"
+    "org_name": "Future Finishes Inc",
+    "emails": [{ "value": "teagan.lamb@example.com", "label": "work" }],
+    "phones": [{ "value": "(331) 589-7963", "label": "work" }]
   },
   {
     "name": "Dean Garrett",
-    "email": "dean.garrett@example.com",
-    "phone": "(169) 443-5138",
     "assistant": "",
     "groups": "Really valuable contacts",
-    "org_name": "Micah Craig"
+    "org_name": "Micah Craig",
+    "emails": [{ "value": "dean.garrett@example.com", "label": "work" }],
+    "phones": [{ "value": "(169) 443-5138", "label": "work" }]
   },
   {
     "name": "Dulce Mays",
-    "email": "dulce.mays@example.com",
-    "phone": "(339) 456-2722",
     "assistant": "Adell Pitchford",
     "groups": "Mike’s contacts",
-    "org_name": "Rockford Linear Actuation"
+    "org_name": "Rockford Linear Actuation",
+    "emails": [{ "value": "dulce.mays@example.com", "label": "work" }],
+    "phones": [{ "value": "(339) 456-2722", "label": "work" }]
   }
 ]
