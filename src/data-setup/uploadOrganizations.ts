@@ -1,10 +1,10 @@
-import OrganizationModel, { IOrganization } from "../models/organization";
+import organization from "../models/organization";
 import dbSetup from "./dbSetup";
 const orgList = require("../mocks/organizations-data.json");
 
-export const uploadOrganizations = async (orgList: IOrganization[]) => {
+export const uploadOrganizations = async () => {
   try {
-    const res = await OrganizationModel.insertMany(orgList);
+    const res = await organization.insertMany(orgList);
     console.log("💁 ‍data uploaded", res);
   } catch (e) {
     console.error(e);
@@ -13,7 +13,7 @@ export const uploadOrganizations = async (orgList: IOrganization[]) => {
 };
 const main = async () => {
   dbSetup();
-  await uploadOrganizations(orgList);
+  await uploadOrganizations();
   process.exit(0);
 };
 
