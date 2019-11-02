@@ -1,9 +1,9 @@
-import person from "../models/person";
+import personModel from "../models/personModel";
 import dbSetup from "./dbSetup";
 
 export const cleanPersons = async () => {
   try {
-    const res = await person.deleteMany({});
+    const res = await personModel.deleteMany({});
     console.log("persons cleaned", res);
   } catch (e) {
     console.error(e);

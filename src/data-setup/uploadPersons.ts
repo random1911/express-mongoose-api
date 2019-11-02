@@ -1,10 +1,10 @@
-import person, { IPerson } from "../models/person";
-import organization from "../models/organization";
+import personModel, { IPerson } from "../models/personModel";
+import organizationModel from "../models/organizationModel";
 import dbSetup from "./dbSetup";
 const personsList = require("../mocks/persons-data.json");
 
 const getOrganizations = async () => {
-  return organization.find({});
+  return organizationModel.find({});
 };
 
 const getPreparedPersonModel = (
@@ -24,7 +24,7 @@ const getPreparedPersonModel = (
 
 export const uploadPersons = async (persons: IPerson[]) => {
   try {
-    const res = await person.insertMany(persons);
+    const res = await personModel.insertMany(persons);
     console.log("💁 ‍data uploaded", res);
   } catch (e) {
     console.error(e);

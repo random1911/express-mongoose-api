@@ -1,9 +1,9 @@
-import organization from "../models/organization";
+import organizationModel from "../models/organizationModel";
 import dbSetup from "./dbSetup";
 
 export const cleanOrganizations = async () => {
   try {
-    const res = await organization.deleteMany({});
+    const res = await organizationModel.deleteMany({});
     console.log("organizations cleaned", res);
   } catch (e) {
     console.error(e);
