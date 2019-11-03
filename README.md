@@ -34,6 +34,10 @@ In original app it was huge thing, same (or even more big) as persons, but here 
 
 - [x] `GET` `/organizations` - list of organizations
 
+### Clear persons list
+
+- [x] `DELETE` `/delete-all-persons` - delete all entries in persons list
+
 ### Reset to initial state
 
-- [ ] `GET` `/reset` - will restore original persons mocks
+- [x] `POST` `/restore-default-data` - will restore original persons mocks

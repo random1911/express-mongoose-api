@@ -15,4 +15,4 @@ const main = async () => {
   }
 };
 
-main();
+process.argv.includes("autorun") && main();

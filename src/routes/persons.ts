@@ -22,7 +22,7 @@ router.get(PATH, async (req, res) => {
         limit
       })
       .populate(ORGANIZATION);
-    const count = await personModel.count({});
+    const count = await personModel.countDocuments({});
     res.status(200).json({ persons, count });
   } catch (e) {
     res.status(500).json(e);
@@ -94,7 +94,7 @@ router.delete("/delete-all-persons", async (req, res) => {
 });
 
 /** restore list */
-router.post("/reset-all-persons", async (req, res) => {
+router.post("/restore-default-data", async (req, res) => {
   try {
     await clearPersons();
     await uploadPersons();

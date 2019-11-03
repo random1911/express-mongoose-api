@@ -16,4 +16,4 @@ const main = async () => {
   process.exit(0);
 };
 
-main();
+process.argv.includes("autorun") && main();

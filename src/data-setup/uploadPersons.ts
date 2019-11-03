@@ -33,7 +33,6 @@ const tryToUpload = async (persons: IPerson[]) => {
 export const uploadPersons = async () => {
   try {
     const organizations = await getOrganizations();
-    console.error("fail to uploadPersons: no organizations found");
     if (!organizations) {
       return;
     }
@@ -55,4 +54,4 @@ const main = async () => {
   }
 };
 
-main();
+process.argv.includes("autorun") && main();
