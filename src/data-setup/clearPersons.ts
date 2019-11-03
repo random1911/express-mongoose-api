@@ -1,19 +1,18 @@
 import personModel from "../models/personModel";
 import dbSetup from "./dbSetup";
 
-export const cleanPersons = async () => {
+export const clearPersons = async () => {
   try {
-    const res = await personModel.deleteMany({});
-    console.log("persons cleaned", res);
+    await personModel.deleteMany({});
   } catch (e) {
     console.error(e);
-    process.exit(1);
   }
 };
 
 const main = async () => {
   dbSetup();
-  await cleanPersons();
+  await clearPersons();
+  console.log("persons cleaned");
   process.exit(0);
 };
 

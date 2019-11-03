@@ -1,5 +1,7 @@
 import * as express from "express";
 import personModel from "../models/personModel";
+import { clearPersons } from "../data-setup/clearPersons";
+import { uploadPersons } from "../data-setup/uploadPersons";
 
 const router = express.Router();
 const PATH = "/persons";
@@ -14,10 +16,12 @@ router.get(PATH, async (req, res) => {
   try {
     const limit = parseInt(req.query.limit, 10) || 1000;
     const skip = parseInt(req.query.from, 10) || 0;
-    const persons = await personModel.find({}, null, {
-      skip,
-      limit
-    }).populate(ORGANIZATION);
+    const persons = await personModel
+      .find({}, null, {
+        skip,
+        limit
+      })
+      .populate(ORGANIZATION);
     const count = await personModel.count({});
     res.status(200).json({ persons, count });
   } catch (e) {
@@ -77,6 +81,27 @@ router.delete(PATH_WITH_ID, async (req, res) => {
 /** find person by name */
 router.get(`${PATH}/find`, (req, res) => {
   res.status(501).json({ error: "NOT IMPLEMENTED" });
+});
+
+/** clear list */
+router.delete("/delete-all-persons", async (req, res) => {
+  try {
+    await clearPersons();
+    res.status(200).json({});
+  } catch (e) {
+    res.status(500).json(e);
+  }
+});
+
+/** restore list */
+router.post("/reset-all-persons", async (req, res) => {
+  try {
+    await clearPersons();
+    await uploadPersons();
+    res.status(200).json({});
+  } catch (e) {
+    res.status(500).json(e);
+  }
 });
 
 export default router;

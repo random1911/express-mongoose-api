@@ -22,26 +22,37 @@ const getPreparedPersonModel = (
   });
 };
 
-export const uploadPersons = async (persons: IPerson[]) => {
+const tryToUpload = async (persons: IPerson[]) => {
   try {
-    const res = await personModel.insertMany(persons);
-    console.log("💁 ‍data uploaded", res);
+    await personModel.insertMany(persons);
   } catch (e) {
     console.error(e);
-    process.exit(1);
+  }
+};
+
+export const uploadPersons = async () => {
+  try {
+    const organizations = await getOrganizations();
+    console.error("fail to uploadPersons: no organizations found");
+    if (!organizations) {
+      return;
+    }
+    const preparedList = getPreparedPersonModel(organizations as any);
+    await tryToUpload(preparedList);
+  } catch (e) {
+    console.error(e);
   }
 };
 const main = async () => {
   dbSetup();
-  const organizations = await getOrganizations();
-  if (!organizations) {
-    console.error("no organizations found");
+  try {
+    await uploadPersons();
+    console.log("💁 ‍data uploaded");
+    process.exit(0);
+  } catch (e) {
+    console.error(e);
     process.exit(1);
   }
-  console.log(organizations);
-  const preparedList = getPreparedPersonModel(organizations as any);
-  await uploadPersons(preparedList);
-  process.exit(0);
 };
 
 main();

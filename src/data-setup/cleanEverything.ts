@@ -1,11 +1,11 @@
 import dbSetup from "./dbSetup";
-import { cleanPersons } from "./cleanPersons";
+import { clearPersons } from "./clearPersons";
 import { cleanOrganizations } from "./cleanOrganizations";
 
 const main = async () => {
   dbSetup();
   try {
-    await cleanPersons();
+    await clearPersons();
     await cleanOrganizations();
     console.log("Cleaned");
     process.exit(0);
