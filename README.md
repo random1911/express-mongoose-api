@@ -32,10 +32,12 @@ Main thing this app about
 
 In original app it was huge thing, same (or even more big) as persons, but here its only to get list of organizations you can put person when create/edit
 
-- [ ] `GET` `/organizations` - list of organizations
+- [x] `GET` `/organizations` - list of organizations
 
-- [ ] `GET` `/organizations/init` - reset list of organizations
+### Clear persons list
+
+- [x] `DELETE` `/delete-all-persons` - delete all entries in persons list
 
 ### Reset to initial state
 
-- [ ] `GET` `/reset` - will restore original persons mocks
+- [x] `POST` `/restore-default-data` - will restore original persons mocks

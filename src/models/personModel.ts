@@ -1,9 +1,25 @@
 import { Schema, model } from "mongoose";
 
+interface IContact {
+  label?: string;
+  value: string;
+}
+
 const contactSchema: Schema = new Schema({
   label: String,
   value: String
 });
+
+export interface IPerson {
+  name: string;
+  assistant?: string;
+  groups?: string;
+  ordering_id?: string;
+  organization_info?: string;
+  phones?: IContact[];
+  emails?: IContact[];
+  picture_url?: String;
+}
 
 const personSchema: Schema = new Schema({
   name: {

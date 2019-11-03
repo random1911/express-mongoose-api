@@ -6,6 +6,11 @@
   "scripts": {
     "start": "node --inspect=5858 -r ts-node/register ./src/app.ts",
     "start:watch": "nodemon",
+    "clearPersons": "node --inspect=5859 -r ts-node/register ./src/data-setup/clearPersons.ts autorun",
+    "cleanOrganizations": "node --inspect=5859 -r ts-node/register ./src/data-setup/cleanOrganizations.ts autorun",
+    "cleanEverything": "node --inspect=5859 -r ts-node/register ./src/data-setup/cleanEverything.ts autorun",
+    "uploadOrganizations": "node --inspect=5859 -r ts-node/register ./src/data-setup/uploadOrganizations.ts autorun",
+    "uploadPersons": "node --inspect=5859 -r ts-node/register ./src/data-setup/uploadPersons.ts autorun",
     "build": "tsc"
   },
   "keywords": [],
@@ -17,7 +22,10 @@
     "@types/mongodb": "^3.3.3",
     "@types/mongoose": "^5.5.18",
     "@types/node": "^12.7.8",
-    "eslint": "^6.4.0",
+    "@typescript-eslint/eslint-plugin": "^2.6.0",
+    "@typescript-eslint/parser": "^2.6.0",
+    "eslint": "^6.6.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
     "eslint-plugin-import": "^2.18.2",
     "nodemon": "^1.19.2",
     "prettier": "^1.18.2",
