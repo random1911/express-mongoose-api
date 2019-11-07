@@ -24,7 +24,7 @@ Main thing this app about
 
 - [x] `DELETE` `/persons/:id` - delete person
 
-- [ ] `GET` `/persons/find` `?name=STRING` - find
+- [x] `GET` `/persons/find` `?name=STRING` - find
 
 - [ ] some kind of request to save order
 

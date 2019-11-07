@@ -42,13 +42,33 @@ router.post(PATH, async (req, res) => {
   }
 });
 
-/** get single person */
+/** get single person / search by name */
 router.get(PATH_WITH_ID, async (req, res) => {
+  const { id } = req.params;
+  console.log("AAAAAA", id);
+  if (id !== "find") {
+    try {
+      const person = await findPersonById(id);
+      res.status(200).json(person);
+    } catch (e) {
+      res.status(404).json(e);
+    }
+    return;
+  }
   try {
-    const person = await findPersonById(req.params.id);
-    res.status(200).json(person);
+    const { name, skip, limit } = req.query;
+    const searchResult = await personModel
+      .find(
+        {
+          name: new RegExp(name, "i")
+        },
+        null,
+        { skip: parseInt(skip, 10) || 0, limit: parseInt(limit, 10) || 0 }
+      )
+      .populate(ORGANIZATION);
+    res.status(200).json(searchResult);
   } catch (e) {
-    res.status(404).json(e);
+    res.status(400).json(e);
   }
 });
 
@@ -76,11 +96,6 @@ router.delete(PATH_WITH_ID, async (req, res) => {
   } catch (e) {
     res.status(404).json(e);
   }
-});
-
-/** find person by name */
-router.get(`${PATH}/find`, (req, res) => {
-  res.status(501).json({ error: "NOT IMPLEMENTED" });
 });
 
 /** clear list */

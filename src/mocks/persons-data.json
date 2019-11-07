@@ -16,6 +16,15 @@
     "phones": [{ "value": "(306) 864-2575", "label": "work" }]
   },
   {
+    "name": "Will Smith",
+    "assistant": "",
+    "groups": "Leads from Conference",
+    "org_name": "City Of Greenville",
+    "emails": [{ "value": "smith.will@example.com", "label": "work" }],
+    "phones": [{ "value": "(678) 333-7918", "label": "work" }],
+    "picture_url": "/images/will-smith.jpg"
+  },
+  {
     "name": "Averi Mcclain",
     "assistant": "Kourtney Zuchowski",
     "groups": "Really valuable contacts",
@@ -40,14 +49,6 @@
     "phones": [{ "value": "(721) 933-0127", "label": "work" }]
   },
   {
-    "name": "Brenton Moran",
-    "assistant": "",
-    "groups": "Leads from Conference",
-    "org_name": "City Of Greenville",
-    "emails": [{ "value": "brenton.moran@example.com", "label": "work" }],
-    "phones": [{ "value": "(678) 333-7918", "label": "work" }]
-  },
-  {
     "name": "Jadiel Mckinney",
     "assistant": "Gala Stockton",
     "groups": "Leads from Conference",
@@ -64,12 +65,13 @@
     "phones": [{ "value": "(512) 317-2387", "label": "work" }]
   },
   {
-    "name": "Abagail Sanford",
+    "name": "Jaden Smith",
     "assistant": "Kiana Brack",
     "groups": "Really valuable contacts",
     "org_name": "Overhead Door",
-    "emails": [{ "value": "abagail.sanford@example.com", "label": "work" }],
-    "phones": [{ "value": "(203) 360-2484", "label": "work" }]
+    "emails": [{ "value": "smith.jaden@example.com", "label": "work" }],
+    "phones": [{ "value": "(203) 360-2484", "label": "work" }],
+    "picture_url": "/images/jaden-smith.jpg"
   },
   {
     "name": "Rigoberto Mccormick",
@@ -208,12 +210,13 @@
     "phones": [{ "value": "(440) 955-8124", "label": "work" }]
   },
   {
-    "name": "Eileen Hinton",
+    "name": "Jada Pinkett Smith",
     "assistant": "Nicholas Neihoff",
     "groups": "Really valuable contacts",
     "org_name": "People Soft Inc",
-    "emails": [{ "value": "eileen.hinton@example.com", "label": "work" }],
-    "phones": [{ "value": "(899) 128-0714", "label": "work" }]
+    "emails": [{ "value": "jada.pinkett.smith@example.com", "label": "work" }],
+    "phones": [{ "value": "(899) 128-0714", "label": "work" }],
+    "picture_url": "/images/jada-pinkett-smith.jpg"
   },
   {
     "name": "Justice Fernandez",
@@ -344,12 +347,13 @@
     "phones": [{ "value": "(635) 373-4483", "label": "work" }]
   },
   {
-    "name": "Saniya Hopkins",
+    "name": "Kevin Smith",
     "assistant": "",
     "groups": "Really valuable contacts",
     "org_name": "Time Systems Intl CO",
-    "emails": [{ "value": "saniya.hopkins@example.com", "label": "work" }],
-    "phones": [{ "value": "(709) 115-7035", "label": "work" }]
+    "emails": [{ "value": "kevin.smith@example.com", "label": "work" }],
+    "phones": [{ "value": "(709) 115-7035", "label": "work" }],
+    "picture_url": "/images/kevin-smith.jpg"
   },
   {
     "name": "Jaylee Patel",
@@ -616,12 +620,13 @@
     "phones": [{ "value": "(169) 873-9453", "label": "work" }]
   },
   {
-    "name": "Santino French",
+    "name": "Agent Smith",
     "assistant": "Margarita Blackstone",
     "groups": "Mike’s contacts",
     "org_name": "Coilcraft Inc",
-    "emails": [{ "value": "santino.french@example.com", "label": "work" }],
-    "phones": [{ "value": "(222) 610-3077", "label": "work" }]
+    "emails": [{ "value": "just.smith@example.com", "label": "work" }],
+    "phones": [{ "value": "(222) 610-3077", "label": "work" }],
+    "picture_url": "/images/agent-smith.jpg"
   },
   {
     "name": "Liliana Miranda",
