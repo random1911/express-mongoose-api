@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node --inspect=5858 -r ts-node/register ./src/app.ts",
-    "dev:watch": "nodemon",
+    "dev:watch": "nodemon --exec yarn dev",
     "clearPersons": "node --inspect=5859 -r ts-node/register ./src/data-setup/clearPersons.ts autorun",
     "cleanOrganizations": "node --inspect=5859 -r ts-node/register ./src/data-setup/cleanOrganizations.ts autorun",
     "cleanEverything": "node --inspect=5859 -r ts-node/register ./src/data-setup/cleanEverything.ts autorun",
